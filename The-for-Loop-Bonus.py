@@ -4,7 +4,6 @@ def reverse_string_loop(text):
     for char in text:
         # Prepend the current character to the front of our reversed string
         reversed_text = char + reversed_text
-        
     return reversed_text
 
 # Testing the function 
